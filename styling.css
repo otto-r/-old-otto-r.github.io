@@ -10,7 +10,7 @@ header{
     text-align: center;
     font-weight: bold;
     font-size: 6em;
-    background: rgba(168, 0, 168);
+    /* background: rgba(168, 0, 168); */
 }
 
 .subHeading{
@@ -32,7 +32,7 @@ footer{
     text-align: center;
     font-weight: bold;
     font-size: 0.8em;
-    background: rgb(3, 0, 168);
+    /* background: rgb(3, 0, 168); */
 }
 
 .wrapper{
@@ -58,17 +58,18 @@ footer{
 }
 
 .aside1{
-    background: rgb(0, 143, 168);
+    /* background: rgb(0, 143, 168); */
+    
 }
 
 .aside2{
-    background: rgb(168, 0, 78);
+    /* background: rgb(168, 0, 78); */
 }
 
-nav{
+.navMain{
     position: relative;
-    margin-left: auto;
     display: table;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -102,10 +103,61 @@ a, a:visited, a:hover, a:active{
     margin: 2px;
 }
 
+#colorNav{
+    padding-right: 10px; 
+}
+
+.buttonBasic{
+    border: 0;
+    width: 50px;
+    height: 50px;
+    clear: right;
+    float: right;
+    position: relative;
+  }
+  
+  .buttonStripes{
+    background-image: url("stripes.png");
+  }
+
+  .buttonTomato{
+      background: #ff6347;
+  }
+
+  .buttonGold{
+      background: gold;
+  }
+
+  .buttonGreen{
+      background: #90ee90;
+  }
+
+  .buttonBlue{
+      background: #00bfff;
+  }
+
+  .buttonPink{
+      background: hotpink;
+  }
+
+  .buttonWhite{
+      background: white;
+  }
+
 @media all and (min-width: 900px) {
     .main { order: 2; flex: 1 0px;}
     .aside1 { order: 1; flex: 1}
     .aside2 { order: 3; flex: 1}
     .footer {order: 4;}
     /* .mid { flex: 1 1 20%; } */
-  }
+}
+
+@media all and (max-width: 899px){
+    .buttonBasic{
+        clear: none;
+        float: none;
+    }
+    #colorNav{
+        text-align: center;
+    }
+}

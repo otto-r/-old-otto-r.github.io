@@ -10,13 +10,13 @@
     <link rel="stylesheet" type="text/css" media="screen" href="qr.css" />
 </head>
 
-<body class="wrapper">
+<body class="wrapper" id="1">
     <header class="header">
         <button id="btn" class="ottoBtn">OTTO</button>
         <h1 class="subHeading">RINALDO</h1>
     </header>
     <main class="main">
-        <nav>
+        <nav class="navMain">
             <a href="https://www.linkedin.com/in/otto-rinaldo/">
                 <img src="linkedin.png" width="56" height="56" alt="LinkedIn" class="linkimage">
             </a>
@@ -34,7 +34,16 @@
             back-end to front-end and webb. Passionate about online privacy and security.
         </div>
     </main>
-    <aside class="aside aside1"></aside>
+    <aside class="aside aside1">
+        <nav id="colorNav">
+            <button id="btn1" class="buttonStripes buttonBasic" type="button" onclick="changeBackground('stripes');"></button>
+            <button id="btn2" class="buttonTomato buttonBasic" type="button" onclick="changeBackground('tomato')"></button>
+            <button id="btn3" class="buttonGold buttonBasic" type="button" onclick="changeBackground('gold')"></button>
+            <button id="btn4" class="buttonGreen buttonBasic" type="button" onclick="changeBackground('#90ee90')"></button>
+            <button id="btn5" class="buttonBlue buttonBasic" type="button" onclick="changeBackground('#00bfff')"></button>
+            <button id="btn6" class="buttonPink buttonBasic" type="button" onclick="changeBackground('hotpink')"></button>
+        </nav>
+    </aside>
     <aside class="aside aside2"></aside>
     <footer class="footer">
         Otto Rinaldo - 2018
