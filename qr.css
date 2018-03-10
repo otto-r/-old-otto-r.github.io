@@ -1,0 +1,30 @@
+#qrWindow{
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+}
+
+#qrInterface{
+    display: table;
+    background: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+
+#btnX{
+    background: transparent;
+    border: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+}
+
+#btnDiv{
+}
+
+#imgQR{
+}
