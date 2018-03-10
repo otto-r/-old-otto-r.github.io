@@ -10,7 +10,7 @@ header{
     text-align: center;
     font-weight: bold;
     font-size: 6em;
-    /* background: rgba(168, 0, 168); */
+    background: rgba(168, 0, 168);
 }
 
 .subHeading{
@@ -32,7 +32,7 @@ footer{
     text-align: center;
     font-weight: bold;
     font-size: 0.8em;
-    /* background: rgb(3, 0, 168); */
+    background: rgb(3, 0, 168);
 }
 
 .wrapper{
@@ -58,11 +58,11 @@ footer{
 }
 
 .aside1{
-    /* background: rgb(0, 143, 168); */
+    background: rgb(0, 143, 168);
 }
 
 .aside2{
-    /* background: rgb(168, 0, 78); */
+    background: rgb(168, 0, 78);
 }
 
 nav{
