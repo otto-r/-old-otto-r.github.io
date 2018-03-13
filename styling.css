@@ -103,6 +103,10 @@ a, a:visited, a:hover, a:active{
     margin: 2px;
 }
 
+.githubimage{
+    filter: grayscale(100%);
+}
+
 #colorNav{
     padding-right: 10px; 
 }
